@@ -72,7 +72,7 @@ a {
 	&-top {
 		border-radius: 5px;
 		background: linear-gradient(90deg, rgba(226, 225, 255, 1) 0%, rgba(197, 197, 255, 1) 0%, rgba(89, 94, 210, 1) 100%);
-		height: 109px;
+		height: 90px;
 	}
 }
 
@@ -103,13 +103,13 @@ a {
 
 	&__avatar {
 		position: absolute;
-		top: 40px;
+		top: 25px;
 	}
 
 	&__avatar img {
 		border-radius: 100px;
-		width: 135px;
-		height: 135px;
+		width: 130px;
+		height: 130px;
 	}
 
 	&__name {
@@ -216,7 +216,7 @@ a {
 	}
 
 	&__item a:hover {
-		color: #eeefff;
+		color: #120061;
 	}
 }
 
@@ -233,7 +233,7 @@ a {
 	&.active {
 		transition: 0.2s;
 		display: block;
-		color: #db2222;
+		color: #ca0000;
 	}
 }
 
@@ -274,5 +274,11 @@ a {
 
 	to {
 		opacity: 1
+	}
+}
+
+@media screen and (max-width:700px) {
+	.wrapper {
+		background-image: none;
 	}
 }

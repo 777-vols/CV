@@ -69,7 +69,7 @@ a {
 .header__inner-top {
   border-radius: 5px;
   background: linear-gradient(90deg, #e2e1ff 0%, #c5c5ff 0%, #595ed2 100%);
-  height: 109px;
+  height: 90px;
 }
 
 .short__info {
@@ -98,12 +98,12 @@ a {
 }
 .short__info-profile__avatar {
   position: absolute;
-  top: 40px;
+  top: 25px;
 }
 .short__info-profile__avatar img {
   border-radius: 100px;
-  width: 135px;
-  height: 135px;
+  width: 130px;
+  height: 130px;
 }
 .short__info-profile__name {
   font-size: 25px;
@@ -195,7 +195,7 @@ a {
   transition: 0.1s;
 }
 .links__item a:hover {
-  color: #eeefff;
+  color: #120061;
 }
 
 .toggle__info {
@@ -207,7 +207,7 @@ a {
 .toggle__info.active {
   transition: 0.2s;
   display: block;
-  color: #db2222;
+  color: #ca0000;
 }
 
 .footer__inner {
@@ -238,5 +238,10 @@ a {
   }
   to {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper {
+    background-image: none;
   }
 }

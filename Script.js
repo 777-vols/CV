@@ -4,6 +4,7 @@ let html = document.querySelector('#html');
 let js = document.querySelector('#js');
 let react = document.querySelector('#react');
 let ts = document.querySelector('#ts');
+let other = document.querySelector('#other');
 
 basic.onclick = function () {
 	this.classList.toggle('active');
@@ -31,6 +32,11 @@ react.onclick = function () {
 	this.parentElement.parentElement.querySelector('.toggle__info').classList.toggle('active');
 }
 ts.onclick = function () {
+	this.classList.toggle('active');
+	this.parentElement.querySelector('.toggle__description').classList.toggle('active');
+	this.parentElement.parentElement.querySelector('.toggle__info').classList.toggle('active');
+}
+other.onclick = function () {
 	this.classList.toggle('active');
 	this.parentElement.querySelector('.toggle__description').classList.toggle('active');
 	this.parentElement.parentElement.querySelector('.toggle__info').classList.toggle('active');
