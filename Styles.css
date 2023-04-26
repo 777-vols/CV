@@ -139,8 +139,8 @@ a {
 }
 .toggle__description {
   transition: .3s;
-  border-radius: 20px;
   margin-right: 10px;
+  flex: 0.9;
 }
 .toggle__description.active {
   color: #120061;

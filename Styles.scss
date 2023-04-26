@@ -145,11 +145,6 @@ a {
 		margin-left: 20px;
 		padding-bottom: 3px;
 	}
-
-	&-description {
-		// display: block;
-		// padding-left: 3px;
-	}
 }
 
 .toggle {
@@ -157,14 +152,13 @@ a {
 
 	&__description {
 		transition: .3s;
-		border-radius: 20px;
 		margin-right: 10px;
+		flex: 0.9;
 	}
 
 	&__description.active {
 		color: #120061;
 		font-size: 16px;
-		// box-shadow: 13px 15px 10px 0 rgba(0, 0, 0, 0.5);
 	}
 }
 
